@@ -26,7 +26,11 @@ print("-------------------------------------------\n"
 # Output: 7 is odd
 #
 # Write your code below:
-
+number = int(input("Enter a number!\n"))
+if number % 2 == 0:
+    print(f"{number} is even")
+else:
+    print(f"{number} if odd")
 
 # -------------------------------------------
 # Submitting Your Work
@@ -58,7 +62,13 @@ print("-------------------------------------------\n"
 # Output: Excellent!
 #
 # Write your code below:
-
+score = int(input("Enter test score from 0-100\n"))
+if score >= 70:
+    print("Excellent!")
+elif score >= 50 and score <= 69:
+    print("Good effort!")
+else:
+    print("Needs improvement.")
 
 # -------------------------------------------
 # Submitting Your Work
@@ -95,6 +105,11 @@ print("-------------------------------------------\n"
 # Blast off!
 #
 # Write your code below:
+counting_num = int(input("Enter a starting number\n"))
+while counting_num > 0:
+    print(counting_num)
+    counting_num -= 1
+print("Blast off")
 
 
 # -------------------------------------------
@@ -129,7 +144,9 @@ print("-------------------------------------------\n"
 # 3 x 10 = 30
 #
 # Write your code below:
-
+num = int(input("Enter a number\n"))
+for i in range(1,11):
+    print(f"{num} x {i} = {num * i}" )
 
 # -------------------------------------------
 # Submitting Your Work
@@ -165,7 +182,15 @@ print("-------------------------------------------\n"
 # Correct! Well done.
 #
 # Write your code below:
-
+secret_number = 6
+guess = int(input("Guess a number between 1 and 10\n"))
+while guess != secret_number:
+    if guess > secret_number:
+        print("too high")
+    else:
+        print("Too low")
+    guess = int(input("Try again"))
+print("Correct! Well done")
 
 # -------------------------------------------
 # Submitting Your Work
@@ -222,6 +247,12 @@ print("-------------------------------------------\n"
 # Output: Access granted!
 #
 # Write your code below:
+correct_pass = "Nokia"
+password = input("Enter password\n")
+while password != correct_pass:
+    print("Incorrect,")
+    password = input("Try Again\n")
+print("Correct Password")
 
 
 
@@ -251,7 +282,9 @@ print("-------------------------------------------\n"
 # 1 2 3 4 5 6 7 8 9 10
 #
 # Write your code below:
-
+counting = int(input("choose a number between 1-20"))
+for i in counting % 2 = 0:
+    print
 
 
 
